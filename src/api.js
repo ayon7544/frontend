@@ -1,4 +1,6 @@
-const API_URL =  process.env.REACT_APP_API_URL || "http://127.0.0.1:8000/api/stocks/"; // Update if needed
+const API_URL =
+  process.env.REACT_APP_API_URL ||
+  "https://backend-autf.onrender.com/api/stocks/";
 
 // Fetch all stocks (READ)
 export async function fetchStocks() {
